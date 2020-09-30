@@ -8,6 +8,6 @@ int main(){
 		PORTB |= (1<<PB5);  // Sets the bit to 1 or HIGH. (OR with 1)
 		_delay_ms(1000);
 		PORTB &= ~(1<<PB5); // Clears the bit previously set to HIGH or 1. (And with 0)
-		_delay_ms(1000);
+		_delay_ms(500); //Delay of 500msec
 	} 
 return 0;}
